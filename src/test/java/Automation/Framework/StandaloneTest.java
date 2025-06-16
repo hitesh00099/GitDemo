@@ -59,6 +59,7 @@ public class StandaloneTest {
 		driver.findElement(By.cssSelector(".action__submit")).click();
 		String confirmMessage = driver.findElement(By.cssSelector(".hero-primary")).getText();
 		Assert.assertTrue(confirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+		System.out.println("Framework Course is completed");
 		
 		
 		
