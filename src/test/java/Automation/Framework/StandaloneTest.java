@@ -60,6 +60,8 @@ public class StandaloneTest {
 		String confirmMessage = driver.findElement(By.cssSelector(".hero-primary")).getText();
 		Assert.assertTrue(confirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
 		System.out.println("Framework Course is completed");
+		//US guy will update from here
+		System.out.println("US guy work");
 		
 		
 		
